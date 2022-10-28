@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <style>
+        #D{
+            background-color: rgb(56, 255, 122);
+            padding: 2% 2%;
+        }
+        legend{
+            text-align: center;
+            text-decoration: underline;
+        }
+        #name{
+            margin-left: 210px;
+        }
+        li{
+            margin-left: 200px;
+        }
+        #pname{
+            margin-left: 161px;
+        }
+        #date{
+            margin-left: 87px;
+        }
+        #add{
+            margin-top: -30px;
+            margin-left: 491px;
+        }
+        #selections{
+            margin-left: 187px;
+        }
+        #res{
+            font-size: 15px;
+            width: 100px;
+            height: 30px;
+        }
+        #sub{
+            font-size: 15px;
+            width: 100px;
+            height: 30px;
+            margin-left: 340px;
+        }
+        #Z{
+            margin-top: 60px;
+            text-align: center;
+        }
+        #genre{
+            margin-left: 205px;
+        }
+        #M{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="D">
+        <form action="">
+            <fieldset>
+                <legend>INSCRIPTION</legend>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="name">NOM</label>
+                            <input type="text" id="name">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="pname">PRENOM(S)</label>
+                            <input type="text" id="pname">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="genre">SEXE</label>
+                            <input type="radio" name="sexe" id="genre">
+                            <label for="hom">F</label>
+                            <input type="radio" name="sexe" id="M">
+                            <label for="fem">M</label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="date">DATE DE NAISSANCE</label>
+                            <input type="text" id="date" placeholder="JJ/MM/AAAA">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="add">ADDRESSE</label>
+                        </li>
+                    </ul>
+                    <textarea name="" id="add" cols="27" rows="6"></textarea>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="dob">CLASSE</label>
+                            <select name="" id="selections">
+                                <option value=""></option>
+                                <option value="">L1 IAGE</option>
+                                <option value="">L2 IAGE</option>
+                                <option value="">L3 IAGE</option>
+                                <option value="">L1 TTL</option>
+                                <option value="">L2 TTL</option>
+                                <option value="">L3 TTL</option>
+                                <option value="">L1 GLRS</option>
+                                <option value="">L2 GLRS</option>
+                                <option value="">L3 GLRS</option>
+                                <option value="">L1 MAIE</option>
+                                <option value="">L2 MAIE</option>
+                                <option value="">L3 MAIE</option>
+                                <option value="">L1 ETSE</option>
+                                <option value="">L2 ETSE</option>
+                                <option value="">L3 ETSE</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div id="Z">
+                    <input type="reset" value="Annuler" id="res">
+                    <input type="submit" value="Inscrire" id="sub">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

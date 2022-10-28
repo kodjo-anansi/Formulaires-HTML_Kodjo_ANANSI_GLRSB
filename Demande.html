@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande</title>
+    <style>
+        #D{
+            background-color: rgb(56, 255, 122);
+            padding: 2% 2%;
+        }
+        legend{
+            text-align: center;
+            text-decoration: underline;
+        }
+        li{
+            margin-left: 200px;
+        }
+        #motif{
+            margin-top: -30px;
+            margin-left: 491px;
+        }
+        #res{
+            font-size: 15px;
+            width: 100px;
+            height: 30px;
+        }
+        #sub{
+            font-size: 15px;
+            width: 100px;
+            height: 30px;
+            margin-left: 340px;
+        }
+        #Z{
+            margin-top: 60px;
+            text-align: center;
+        }
+        #ob{
+            margin-left: 200px;
+        }
+        #M{
+            margin-left: 50px;
+        }
+        #A{
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="D">
+        <form action="">
+            <fieldset>
+                <legend>DEMANDE</legend>
+                <div id="A">
+                    <ul>
+                        <li>
+                            <label for="genre">OBJET</label>
+                            <input type="radio" name="sexe" id="ob">
+                            <label for="hom">Suspendre</label>
+                            <input type="radio" name="sexe" id="M">
+                            <label for="fem">Annuler</label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <label for="add">MOTIF</label>
+                        </li>
+                    </ul>
+                    <textarea name="" id="motif" cols="27" rows="6"></textarea>
+                </div>
+                <div id="Z">
+                    <input type="reset" value="Annuler" id="res">
+                    <input type="submit" value="Envoyer" id="sub">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
